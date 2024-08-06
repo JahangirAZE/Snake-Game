@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-game">
+        <div class="scores">
+          <h1 id="score">000</h1>
+          <h1 id="high-score">000</h1>
+        </div>
+        <div class="game-border-1">
+          <div class="game-border-2">
+            <div class="game-border-3">
+              <div id="game-board">
+              </div>
+            </div>
+          </div>
+        </div>
+        <img id="snake-logo" src="./images/snake-game-ai-gen.png" alt="snake logo">
+        <h1 id="instruction-text">Press spacebar to start</h1>
+      </div>
+      <div class="buttons">
+        <button class="start-button" id="js-start-button">Start</button>
+        <div></div>
+        <button class="control" id="js-up-button">UP</button>
+        <div></div>
+        <button class="control" id="js-left-button">LEFT</button>
+        <div></div>
+        <button class="control" id="js-right-button">RIGHT</button>
+        <div></div>
+        <button class="control" id="js-down-button">DOWN</button>
+      </div>
+    </div>
+  
+    <script src="./index.js" defer></script>
+  </body>
+</html>
